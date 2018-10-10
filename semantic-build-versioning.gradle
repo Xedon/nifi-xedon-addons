@@ -1,0 +1,7 @@
+def majorV = 0
+def minorV = 1
+startingVersion = "$majorV.$minorV.0"
+matching {
+    major = majorV
+    minor = minorV
+}
